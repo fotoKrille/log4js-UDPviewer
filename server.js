@@ -5,7 +5,7 @@ var log4js = require("log4js"),
     logger = log4js.getLogger();
 
 var serverAddress = process.env.log4jsAddress || "127.0.0.1",
-    serverPort = process.env.log4jsPort || 80;
+    serverPort = process.env.log4jsPort || 8080;
 
 server.on("listening", function () {
     var address = server.address();

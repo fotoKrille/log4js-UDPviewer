@@ -14,7 +14,7 @@ var log4js = require('log4js');
  Sample logstash config:
    udp {
     codec => json
-    port => 10001
+    port => 8080
     queue_size => 2
     workers => 2
     type => myAppType
@@ -29,7 +29,7 @@ log4js.configure({
     },
     {
       "host": "127.0.0.1",
-      "port": 10001,
+      "port": 8080,
       "type": "logstashUDP",
       "logType": "myAppType", // Optional, defaults to 'category'
       "fields": {             // Optional, will be added to the 'fields' object in logstash
