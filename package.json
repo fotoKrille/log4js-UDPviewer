@@ -1,0 +1,27 @@
+{
+  "name": "log4js-UDPviewer",
+  "version": "1.0.0",
+  "description": "A simpel application written in NODE JS to display incoming UDP message from log4js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fotoKrille/log4js-UDPviewer.git"
+  },
+  "keywords": [
+    "log4js",
+    "UDP"
+  ],
+  "author": "Krister Johansson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fotoKrille/log4js-UDPviewer/issues"
+  },
+  "homepage": "https://github.com/fotoKrille/log4js-UDPviewer",
+  "dependencies": {
+    "log4js": "^0.6.22"
+  }
+}
