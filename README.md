@@ -5,6 +5,7 @@ A simpel application written in NODE JS to display incoming UDP message from log
 
 ```bash
 npm start
+```
 
 ## Copyright and license
 
