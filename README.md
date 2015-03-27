@@ -4,7 +4,7 @@ A simpel application written in NODE JS to display incoming UDP message from [lo
 To run:
 ```
 npm install
-npm start
+log4jsAddress=127.0.0.1 log4jsPort=8080 npm start
 ```
 ## Example [logstashUDP.js](https://github.com/nomiddlename/log4js-node/blob/master/examples/logstashUDP.js)
 ```javascript
