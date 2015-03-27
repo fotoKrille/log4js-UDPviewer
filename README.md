@@ -1,7 +1,9 @@
 # log4js-UDPviewer
 A simpel application written in NODE JS to display incoming UDP message from [log4js-node](https://github.com/nomiddlename/log4js-node)
-## Start
+
+To run:
 ```
+npm install
 npm start
 ```
 ## Example [logstashUDP.js](https://github.com/nomiddlename/log4js-node/blob/master/examples/logstashUDP.js)
