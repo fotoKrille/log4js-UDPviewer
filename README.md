@@ -48,4 +48,4 @@ logger.info("Test log message %s", "arg1", "arg2");
 ````
 ## Copyright and license
 
-Code and documentation copyright 2011-2015 Twitter, Inc. Code released under [the MIT license](https://github.com/fotoKrille/log4js-UDPviewer/blob/master/LICENSE).
+Code and documentation copyright 2015 Krister Johansson. Code released under [the MIT license](https://github.com/fotoKrille/log4js-UDPviewer/blob/master/LICENSE).
